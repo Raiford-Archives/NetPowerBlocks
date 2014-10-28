@@ -5,11 +5,14 @@ using System.Text;
 
 namespace PowerBlocks.Bullets
 {
-    class ActionDataEnvelope
+    class ActionDataEnvelope  // or Packet
     {
         Guid Uid;
         ScheduleInfo schedule;
         int Prioty; // 1-100
+        ProcessInfo; // seperate memory etc.
+        Insulation
+
 
 
         ActionData ActionData;
@@ -19,12 +22,31 @@ namespace PowerBlocks.Bullets
 
     }
 
+    interface IActionData
+    {
+        Execute(...)
+
+        //optional for alater
+        OnSuccess
+            OnError
+            OnCancel
+
+    }
+
     class ActionDataBuilder
     {
         CreateFromObject<T>(T obj)
 
     
+            void ExampalClient()
+            {
 
+                string
+
+
+                ActionData.Execute()
+
+            }
 
     }
 
