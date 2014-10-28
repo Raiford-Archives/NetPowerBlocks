@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bullets\ActionData.cs" />
     <Compile Include="Caching\CacheExpiration.cs" />
     <Compile Include="Configuration\AppConfigSetting.cs" />
     <Compile Include="Configuration\ISetting.cs" />
@@ -88,6 +89,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bullets\Readme.txt" />
     <Content Include="README.txt" />
   </ItemGroup>
   <ItemGroup />
