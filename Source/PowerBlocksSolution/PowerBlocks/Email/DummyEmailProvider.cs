@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
 using log4net;
+using PowerBlocks.Utilities;
 
 namespace PowerBlocks.Email
 {

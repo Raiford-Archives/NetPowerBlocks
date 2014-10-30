@@ -9,6 +9,7 @@ using Castle.Core.Resource;
 using Castle.Windsor.Configuration.Interpreters;
 using System.Diagnostics;
 using Castle.MicroKernel.Registration;
+using PowerBlocks.Utilities;
 
 namespace PowerBlocks.IocContainers
 {

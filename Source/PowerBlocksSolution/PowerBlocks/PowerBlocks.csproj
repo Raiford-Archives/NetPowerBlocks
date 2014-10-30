@@ -40,6 +40,10 @@
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -52,9 +56,11 @@
   <ItemGroup>
     <Compile Include="Bullets\ActionData.cs" />
     <Compile Include="Bullets\ActionObject.cs" />
+    <Compile Include="Bullets\ActionObjectSerializer.cs" />
     <Compile Include="Bullets\IActionObject.cs" />
     <Compile Include="Bullets\ObjectBuilder.cs" />
     <Compile Include="Bullets\ObjectData.cs" />
+    <Compile Include="Bullets\QueueCommand.cs" />
     <Compile Include="Caching\CacheExpiration.cs" />
     <Compile Include="Configuration\AppConfigSetting.cs" />
     <Compile Include="Configuration\ISetting.cs" />
@@ -66,6 +72,7 @@
     <Compile Include="IocContainers\IocContainer.cs" />
     <Compile Include="IocContainers\IocEnvironment.cs" />
     <Compile Include="IocContainers\WindsorContainerProvider.cs" />
+    <Compile Include="Serialization\JsonObjectSerializer.cs" />
     <Compile Include="Utilities\ConversionHelper.cs" />
     <Compile Include="Utilities\DateTimeHelper.cs" />
     <Compile Include="Diagnostics\DiagnosticBuilder.cs" />

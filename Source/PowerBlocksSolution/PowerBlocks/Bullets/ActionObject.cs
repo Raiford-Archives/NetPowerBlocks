@@ -19,7 +19,17 @@ namespace PowerBlocks.Bullets
 
         public string ActionMethod { get; set; }
 
-        public string ObjectData { get; set; }
+        public object InnerObject { get; set; }
+
+
+        public ActionObject()
+        {
+
+        }
+        public ActionObject(object innerObject)
+        {
+            InnerObject = innerObject;
+        }
 
     }
 }
