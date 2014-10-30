@@ -5,6 +5,16 @@ using System.Text;
 
 namespace PowerBlocks.Bullets
 {
+
+
+    class PlatformInfo
+    {
+
+        OS7
+            Win7
+            Linix
+
+    }
     class ActionDataEnvelope  // or Packet
     {
         Guid Uid;
@@ -50,7 +60,7 @@ namespace PowerBlocks.Bullets
 
     }
 
-    class ActionDataProcessorExecuter
+    class ActionDataExecuter
     {
         // ProcessQueue
     }

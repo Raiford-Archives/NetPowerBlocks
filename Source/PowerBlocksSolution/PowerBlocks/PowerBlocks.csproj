@@ -51,6 +51,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bullets\ActionData.cs" />
+    <Compile Include="Bullets\ActionObject.cs" />
+    <Compile Include="Bullets\IActionObject.cs" />
+    <Compile Include="Bullets\ObjectBuilder.cs" />
+    <Compile Include="Bullets\ObjectData.cs" />
     <Compile Include="Caching\CacheExpiration.cs" />
     <Compile Include="Configuration\AppConfigSetting.cs" />
     <Compile Include="Configuration\ISetting.cs" />

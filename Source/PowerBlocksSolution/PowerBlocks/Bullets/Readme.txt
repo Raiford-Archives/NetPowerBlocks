@@ -22,6 +22,16 @@ NetworkObjectProtocal
 
 Like Sending Datapackets, but rather ActionPacket
 
+could have routing information
+
+Platform agnostic must have some constants OS7
+
+PacketBuilder Tool to allow Visual Packet Building
+
+PacketBuilder Class to programatically build packets
+
+
+
 Names
 ----------------
 Packets
